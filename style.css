@@ -68,6 +68,12 @@ a{
 .border{
     text-align: center;
 }
+.catagories{
+    height: 500px;
+}
+.catagories .pale-order img{
+    width: 100%;
+}
 
 .img img {
     padding: 40px;
