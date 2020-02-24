@@ -22,6 +22,7 @@ a{
     padding: 9px 25px;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .card{
@@ -65,7 +66,7 @@ a{
     border-radius: 5px;
     margin-left: 30px;
 }
-.border{
+.borders{
     text-align: center;
 }
 .catagories{
@@ -81,4 +82,27 @@ a{
     margin: 10px;
     border-radius: 5px 5px 5px 30px;
     box-shadow: 5px 5px 10px lightgrey;
+}
+.contactus-bg {
+    background-color: #000;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+#contactus{
+    height: 500px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+.submit-now-button{
+    background-image: linear-gradient(to bottom, rgb(226, 224, 219) 0%, #fff 100%);
+    color: black;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
 }
