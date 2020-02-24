@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.carousel-indicators li {
+    width: 20px;
+    height: 5px;
+    background-color: dimgray;
+}
+.carousel-indicators li.active{
+    width: 20px;
+    height: 5px;
+    background-color: #FF9C35;
+}
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, rgb(43, 43, 43) 0%, #000 100%);
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.card img{
+    width: 70%;
+    padding-top: 20px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.smartphones,.laptops{
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+.smartphones a,
+.laptops a {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #FF9C35;
+    text-decoration: none;
+}
+.smartphones h3,
+.laptops h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.smartphones-section,
+.laptops-section{
+    text-align: center;
+}
+.categories-border{
+    width: 70px;
+    border: 4px solid orange;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.border{
+    text-align: center;
+}
+
+.img img {
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px 5px 5px 30px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
